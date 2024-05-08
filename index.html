@@ -2,6 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>@keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
+      
+      /* The element to apply the animation to */
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+       </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odio mi vida</title>
 </head>
@@ -12,20 +28,5 @@
     <div>durmiendo... durmiendo... durmiendo... durmiendo... durmiendo... durmiendo... durm...</div>
     <div>...bueno, hablemos de necromancia ¿qué clase de ouija sueles utilizar?Te puedo recomendar</div>
     /* The animation code */
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
-
-/* The element to apply the animation to */
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-}
 </body>
 </html>
